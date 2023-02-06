@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <i class="fas fa-keyboard"></i>  klavye */
+/* <i class="fas fa-microphone"></i>  mikrafon  */
+/* <i class="fas fa-camera"></i>  kamera  */
+/* #999da2 alt renkler*/
+/* #8ab4f8 buton*/
+/* #202124 */
+
+#genel{
+    width: 100%;
+    height: 100vh;
+    background-color: #202124;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+nav .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 4px 0 32px;
+}
+
+nav .container a{
+    font-size: 13px;
+    font-family: 'arial', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav .container a span{
+    font-size: 24px;
+    padding: 8px;
+}
+
+nav .container button{
+    font-size: 14px;
+    font-family: "Google Sans", Arial, Helvetica, sans-serif;
+    margin: 0 8px;
+    padding: 9px 23px;
+    background-color: #8ab4f8;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#genel .orta{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2 .orta-2{
+    padding: 22px;
+}
+
+.container-2 img{
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+.container-2 .input{
+    display: flex;
+    align-items: center;
+    border: 1px solid #5f6368;
+    height: 44px;
+    border-radius: 24px;
+    max-width: 584px;
+    background-color: #202124;
+}
+
+.container-2 .input .input-2{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 5px 8px 0 14px;
+}
+
+.container-2 .input .input-2 span{
+    width: 20px;
+    color: #707378;
+    margin-right: 13px;
+    align-items: center;
+}
+
+.container-2 .input .input-2 input{
+    width: 403px;
+    height: 34px;
+    background-color: #202124;
+    border: none;
+    margin: 5px;
+}
+
+
+.container-2 .input .input-2 .simgeler{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.container-2 .input .input-2 .simgeler span{
+    width: 24px;
+    padding-right: 0 20px;
+    color: #fff;
+}
+
+.container-2 .input .input-2 .simgeler .fa-microphone{
+    
+}
+
+.container-2 .orta-2 .simgeler-2{
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2 .orta-2 .simgeler-2 a{
+    font-size: 14px;
+    color: #fff;
+    font-family: 'arial', sans-serif;
+    margin: 11px 6px;
+    padding: 10px 16px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+#genel .footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #171717;
+}
+
+#genel .footer .ust{
+    display: flex;
+    width: 100%;
+    padding: 15px 30px;
+    border-bottom: 1px solid #5f6368;
+}
+
+#genel .footer .ust p{
+    font-size: 15px;
+    font-family: 'arial', sans-serif;
+    color: #8e9594;
+}
+
+#genel .footer .alt{
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#genel .footer .alt .sol a{
+    color: #8e9594;
+    font-family: 'arial', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+}
+
+#genel .footer .alt .orta-1{
+    margin-right: 200px;
+}
+
+#genel .footer .alt .orta-1 a{
+    color: #8e9594;
+    font-family: 'arial', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#genel .footer .alt .sag a{
+    color: #8e9594;
+    font-family: 'arial', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 900px){
+    html,body{
+        overflow-x: hidden;
+       }
+
+       .container-2 .input{
+        display: flex;
+        align-items: center;
+        border: 1px solid #5f6368;
+        height: 44px;
+        border-radius: 24px;
+        max-width: 584px;
+        background-color: #202124;
+    }
+    
+    .container-2 .input .input-2{
+        display: flex;
+        align-items: center;
+        flex: 1;
+        padding: 5px 8px 0 14px;
+    }      
+
+    .container-2 .input .input-2 input{
+        width: 100%;
+    }
+
+    #genel .footer{
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        background-color: #171717;
+    }
+
+    #genel .footer{
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #genel .footer .alt{
+        width: 100%;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #genel .footer .orta-1{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
